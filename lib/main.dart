@@ -1,6 +1,7 @@
 
 
-import 'package:firebase_app/ui/home_page.dart';
+
+import 'package:firebase_app/ui/login/signin_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomePage(),
+      home: SignInPage(),
       debugShowCheckedModeBanner: false,
     );
   }
