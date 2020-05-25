@@ -1,5 +1,6 @@
 import 'package:firebase_app/ui/advance_page.dart';
 import 'package:firebase_app/ui/bacsic_page.dart';
+import 'package:firebase_app/ui/customer/cusotomer_list_page.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -29,6 +30,13 @@ class _HomePageState extends State<HomePage> {
               onPressed: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => AdvancePage()));
+              },
+            ),
+             RaisedButton(
+              child: Text("Advance Firebase"),
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => CustomerListViewPage()));
               },
             ),
           ],
